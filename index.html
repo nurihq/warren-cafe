@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warren Cafe & Brunch | Buenos Aires</title>
+    <meta name="description"
+        content="Warren Cafe & Brunch — Specialty coffee & brunch en Buenos Aires. Palermo y Recoleta. Pedí por PedidosYa o Rappi." />
+    <meta property="og:title" content="Warren Cafe & Brunch | Buenos Aires" />
+    <meta property="og:description"
+        content="Tu brunch favorito en Buenos Aires. Cafés de especialidad y brunch con amor." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- Language Toggle -->
+    <button id="lang-toggle" class="lang-btn" aria-label="Toggle Language">🇬🇧</button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">Warren <span class="nav-logo-sub">Cafe & Brunch</span></a>
+            <div class="nav-links">
+                <a href="#menu" data-es="Menú" data-en="Menu">Menú</a>
+                <a href="#delivery" data-es="Pedir" data-en="Order">Pedir</a>
+                <a href="#locaciones" data-es="Locaciones" data-en="Locations">Locaciones</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-image-wrap">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1800&q=85&auto=format&fit=crop"
+                alt="Warren Cafe brunch spread" class="hero-img" />
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-es="Buenos Aires · Palermo & Recoleta"
+                data-en="Buenos Aires · Palermo & Recoleta">Buenos Aires · Palermo & Recoleta</div>
+            <h1 class="hero-title">Warren</h1>
+            <p class="hero-sub-title">Cafe & Brunch</p>
+            <p class="hero-tagline" data-es="Tu brunch favorito en Buenos Aires."
+                data-en="Your favourite brunch in Buenos Aires.">Tu brunch favorito en Buenos Aires.</p>
+            <p class="hero-desc"
+                data-es="Café de especialidad, brunches llenos de sabor y un ambiente que invita a quedarse. Pasá por Palermo o Recoleta."
+                data-en="Specialty coffee, flavour-packed brunches and an atmosphere worth lingering in. Visit us in Palermo or Recoleta.">
+                Café de especialidad, brunches llenos de sabor y un ambiente que invita a quedarse. Pasá por Palermo o
+                Recoleta.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary" data-es="Ver menú" data-en="See menu">Ver menú</a>
+                <a href="#delivery" class="btn btn-ghost" data-es="Pedí ahora" data-en="Order now">Pedí ahora</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About strip -->
+    <section class="about-strip">
+        <div class="strip-items">
+            <div class="strip-item">
+                <span class="strip-icon">☕</span>
+                <span data-es="Café de especialidad" data-en="Specialty coffee">Café de especialidad</span>
+            </div>
+            <div class="strip-dot"></div>
+            <div class="strip-item">
+                <span class="strip-icon">🥑</span>
+                <span data-es="Brunch todo el día" data-en="All-day brunch">Brunch todo el día</span>
+            </div>
+            <div class="strip-dot"></div>
+            <div class="strip-item">
+                <span class="strip-icon">🐾</span>
+                <span data-es="Pet friendly" data-en="Pet friendly">Pet friendly</span>
+            </div>
+            <div class="strip-dot"></div>
+            <div class="strip-item">
+                <span class="strip-icon">📍</span>
+                <span data-es="2 sucursales" data-en="2 locations">2 sucursales</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="section-label" data-es="Nuestro Menú" data-en="Our Menu">Nuestro Menú</div>
+            <h2 class="section-title" data-es="Los favoritos de Warren." data-en="Warren's favourites.">Los favoritos de
+                Warren.</h2>
+            <p class="section-sub"
+                data-es="Ingredientes frescos, recetas de autor y todo el amor que merece tu desayuno."
+                data-en="Fresh ingredients, signature recipes, and all the love your breakfast deserves.">Ingredientes
+                frescos, recetas de autor y todo el amor que merece tu desayuno.</p>
+
+            <div class="menu-grid">
+
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="menu-card">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=600&q=80&auto=format&fit=crop"
+                            alt="Eggs Benedict" loading="lazy" />
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title" data-es="Huevo Benedictino" data-en="Eggs Benedict">Huevo
+                            Benedictino</h3>
+                        <p class="menu-card-desc"
+                            data-es="Cerdo desmechado, chutney de cebolla, huevo mollet y salsa holandesa sobre pan brioche."
+                            data-en="Pulled pork, onion chutney, mollet egg and hollandaise sauce on brioche bread.">
+                            Cerdo desmechado, chutney de cebolla, huevo mollet y salsa holandesa sobre pan brioche.</p>
+                        <span class="menu-card-link" data-es="Pedir en PedidosYa ↗" data-en="Order on PedidosYa ↗">Pedir
+                            en PedidosYa ↗</span>
+                    </div>
+                </a>
+
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="menu-card">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1528736235302-52922df5c122?w=600&q=80&auto=format&fit=crop"
+                            alt="Bagel Americano" loading="lazy" />
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title" data-es="Bagel Americano" data-en="American Bagel">Bagel Americano
+                        </h3>
+                        <p class="menu-card-desc" data-es="Huevos revueltos, queso cheddar y bacon crocante."
+                            data-en="Scrambled eggs, cheddar cheese and crispy bacon.">Huevos revueltos, queso cheddar y
+                            bacon crocante.</p>
+                        <span class="menu-card-link" data-es="Pedir en PedidosYa ↗" data-en="Order on PedidosYa ↗">Pedir
+                            en PedidosYa ↗</span>
+                    </div>
+                </a>
+
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="menu-card">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600&q=80&auto=format&fit=crop"
+                            alt="Tostón de Hummus y Palta" loading="lazy" />
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title" data-es="Tostón de Hummus y Palta" data-en="Hummus & Avocado Toast">
+                            Tostón de Hummus y Palta</h3>
+                        <p class="menu-card-desc"
+                            data-es="Pan de masa madre, hummus casero, palta, tomates cherry y semillas tostadas."
+                            data-en="Sourdough bread, homemade hummus, avocado, cherry tomatoes and toasted seeds.">Pan
+                            de masa madre, hummus casero, palta, tomates cherry y semillas tostadas.</p>
+                        <span class="menu-card-link" data-es="Pedir en PedidosYa ↗" data-en="Order on PedidosYa ↗">Pedir
+                            en PedidosYa ↗</span>
+                    </div>
+                </a>
+
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="menu-card">
+                    <div class="menu-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600&q=80&auto=format&fit=crop"
+                            alt="Alfajor de Pistacho" loading="lazy" />
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title" data-es="Alfajor de Pistacho" data-en="Pistachio Alfajor">Alfajor de
+                            Pistacho</h3>
+                        <p class="menu-card-desc"
+                            data-es="Una dulzura de autor — crema de pistacho entre dos tapas irresistibles."
+                            data-en="A signature sweet — pistachio cream sandwiched between two irresistible cookies.">
+                            Una dulzura de autor — crema de pistacho entre dos tapas irresistibles.</p>
+                        <span class="menu-card-link" data-es="Pedir en PedidosYa ↗" data-en="Order on PedidosYa ↗">Pedir
+                            en PedidosYa ↗</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="menu-cta">
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="btn btn-primary" data-es="Ver menú completo"
+                    data-en="See full menu">Ver menú completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery & Socials -->
+    <section class="delivery section" id="delivery">
+        <div class="container">
+            <div class="section-label" data-es="Pedí o Seguinos" data-en="Order or Follow Us">Pedí o Seguinos</div>
+            <h2 class="section-title" data-es="Disfrutá Warren donde estés." data-en="Enjoy Warren wherever you are.">
+                Disfrutá Warren donde estés.</h2>
+            <div class="delivery-grid">
+
+                <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/warren-cafe-y-brunch-menu"
+                    target="_blank" rel="noopener" class="delivery-card pedidosya">
+                    <div class="delivery-icon">🛵</div>
+                    <div class="delivery-info">
+                        <strong>PedidosYa</strong>
+                        <span data-es="Pedí a domicilio" data-en="Order for delivery">Pedí a domicilio</span>
+                    </div>
+                    <span class="delivery-arrow">↗</span>
+                </a>
+
+                <a href="https://www.rappi.com.ar/restaurantes/warren-cafe" target="_blank" rel="noopener"
+                    class="delivery-card rappi">
+                    <div class="delivery-icon">🛵</div>
+                    <div class="delivery-info">
+                        <strong>Rappi</strong>
+                        <span data-es="Delivery rápido" data-en="Fast delivery">Delivery rápido</span>
+                    </div>
+                    <span class="delivery-arrow">↗</span>
+                </a>
+
+                <a href="https://www.instagram.com/warren.cafe" target="_blank" rel="noopener"
+                    class="delivery-card instagram">
+                    <div class="delivery-icon">📸</div>
+                    <div class="delivery-info">
+                        <strong>Instagram</strong>
+                        <span data-es="Seguinos en IG" data-en="Follow us on IG">Seguinos en IG</span>
+                    </div>
+                    <span class="delivery-arrow">↗</span>
+                </a>
+
+                <a href="https://www.facebook.com/warren.cafe" target="_blank" rel="noopener"
+                    class="delivery-card facebook">
+                    <div class="delivery-icon">👍</div>
+                    <div class="delivery-info">
+                        <strong>Facebook</strong>
+                        <span data-es="Siguenos en Facebook" data-en="Like us on Facebook">Síguenos en Facebook</span>
+                    </div>
+                    <span class="delivery-arrow">↗</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="locaciones section" id="locaciones">
+        <div class="container">
+            <div class="section-label" data-es="Dónde Encontrarnos" data-en="Find Us">Dónde Encontrarnos</div>
+            <h2 class="section-title" data-es="Dos rincones para vos." data-en="Two corners for you.">Dos rincones para
+                vos.</h2>
+            <div class="locations-grid">
+
+                <a href="https://maps.google.com/?q=Warren+Cafe+Jorge+Luis+Borges+1842+Palermo+Buenos+Aires"
+                    target="_blank" rel="noopener" class="location-card">
+                    <div class="location-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?w=600&q=80&auto=format&fit=crop"
+                            alt="Palermo neighbourhood" loading="lazy" />
+                        <div class="location-img-overlay"></div>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-barrio" data-es="Palermo" data-en="Palermo">Palermo</div>
+                        <div class="location-address">📍 Jorge Luis Borges 1842</div>
+                        <span class="location-link" data-es="Ver en Google Maps ↗" data-en="Open in Google Maps ↗">Ver
+                            en Google Maps ↗</span>
+                    </div>
+                </a>
+
+                <a href="https://maps.google.com/?q=Warren+Cafe+Aguero+1921+Recoleta+Buenos+Aires" target="_blank"
+                    rel="noopener" class="location-card">
+                    <div class="location-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop"
+                            alt="Recoleta neighbourhood" loading="lazy" />
+                        <div class="location-img-overlay"></div>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-barrio" data-es="Recoleta" data-en="Recoleta">Recoleta</div>
+                        <div class="location-address">📍 Agüero 1921</div>
+                        <span class="location-link" data-es="Ver en Google Maps ↗" data-en="Open in Google Maps ↗">Ver
+                            en Google Maps ↗</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">Warren</span>
+                    <span class="footer-logo-sub">Cafe & Brunch</span>
+                </div>
+                <p class="footer-tagline" data-es="Tu brunch favorito en Buenos Aires."
+                    data-en="Your favourite brunch in Buenos Aires.">Tu brunch favorito en Buenos Aires.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/warren.cafe" target="_blank" rel="noopener"
+                        aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/warren.cafe" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-copy">
+                    <span data-es="Hecho con ☕ por" data-en="Made with ☕ by">Hecho con ☕ por</span>
+                    <a href="https://nuri.software" target="_blank" rel="noopener">Nuri</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Language Toggle
+        const langBtn = document.getElementById('lang-toggle');
+        const elements = document.querySelectorAll('[data-es]');
+        let currentLang = localStorage.getItem('warren-lang') || 'es';
+
+        function updateLanguage() {
+            // Show flag of *other* language
+            langBtn.textContent = currentLang === 'es' ? '🇬🇧' : '🇦🇷';
+            elements.forEach(el => {
+                el.textContent = el.getAttribute(`data-${currentLang}`);
+            });
+            document.documentElement.lang = currentLang;
+            localStorage.setItem('warren-lang', currentLang);
+        }
+
+        langBtn.addEventListener('click', () => {
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            updateLanguage();
+        });
+
+        updateLanguage();
+
+        // Nav scroll behaviour
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('nav-scrolled', window.scrollY > 60);
+        });
+
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.section-label, .section-title, .section-sub, .menu-card, .delivery-card, .location-card, .about-strip');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+
+</html>
